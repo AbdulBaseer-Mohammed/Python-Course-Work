@@ -100,6 +100,7 @@ display(1,2,3,4)
 display(1,2,3)
 display(1,2,3,4,5,6)
 '''
+'''
 def display(**n):
     print(n)
 
@@ -107,7 +108,19 @@ def display(**n):
 display(n1=1,n2=2,n3=3,n4=4)
 display(n1=1,n2=2)
 display(n1=1,n2=2,n3=3)
+'''
+'''
+def display(**n):
+    print(n)
 
+
+display(baseer=20)
+display(arun=16)
+display(sinu=18)
+print('Highest number')
+print('Result')
+'''
+ 
 
 
 
